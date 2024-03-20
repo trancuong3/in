@@ -7,8 +7,11 @@
 <script>
   let text = "";
   let i;
-  for (i = 1; i < 10; i++) {
+  for (i = 1; i <= 4; i++) {
     text +=  i + "<br>";
+  }
+  for (i = 5; i <= 10; i++) {
+      text +=  i + "<br>";
   }
   document.getElementById("demo").innerHTML = text;
 </script>
